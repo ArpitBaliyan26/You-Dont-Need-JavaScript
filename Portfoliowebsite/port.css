@@ -146,6 +146,7 @@ ul li a:hover{
 #vertical{
     height: 50px;
 }
+
 .btn{
     
     font-family: minecraft;
@@ -160,8 +161,13 @@ ul li a:hover{
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
-    
 }
+
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .btn:hover{
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(176, 8, 8, 0.3);
@@ -169,6 +175,11 @@ ul li a:hover{
     backdrop-filter: blur(10px);
     color:white;
 }
+
+.btn a:hover{
+    color: white;
+}
+
 .footer{
     display:flex;
     justify-content: space-around;
